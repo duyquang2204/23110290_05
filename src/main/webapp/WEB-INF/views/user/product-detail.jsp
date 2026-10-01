@@ -45,6 +45,7 @@
                 </a>
                 <c:if test="${sessionScope.currentUser.role == 'USER'}">
                     <a class="nav-link" href="${pageContext.request.contextPath}/cart">Giỏ hàng</a>
+                    <a class="nav-link" href="${pageContext.request.contextPath}/orders">Lịch sử đơn hàng</a>
                 </c:if>
 
             </nav>

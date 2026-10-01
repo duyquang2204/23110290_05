@@ -38,6 +38,7 @@
 
             <c:if test="${sessionScope.currentUser.role == 'USER'}">
                 <a class="nav-link" href="${pageContext.request.contextPath}/cart">Giỏ hàng</a>
+                <a class="nav-link" href="${pageContext.request.contextPath}/orders">Lịch sử đơn hàng</a>
             </c:if>
 
             <c:if test="${sessionScope.currentUser.role == 'ADMIN'}">
@@ -156,10 +157,10 @@
                             Tài khoản đã kích hoạt thành công.
                         </p>
 
-                        <a class="button"
-                           href="${pageContext.request.contextPath}/products">
-                            Xem sản phẩm
-                        </a>
+                        <div class="form-actions">
+                            <a class="button" href="${pageContext.request.contextPath}/products">Xem sản phẩm</a>
+                            <a class="button button-secondary" href="${pageContext.request.contextPath}/orders">Lịch sử đơn hàng</a>
+                        </div>
                     </c:otherwise>
                 </c:choose>
             </c:otherwise>

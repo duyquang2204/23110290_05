@@ -8,7 +8,7 @@
 </head><body>
 <header class="site-header"><div class="container header-inner">
 <a class="brand" href="${pageContext.request.contextPath}/home">Sổ cửa hàng</a>
-<nav><a class="nav-link" href="${pageContext.request.contextPath}/products">Sản phẩm</a><a class="nav-link active" href="${pageContext.request.contextPath}/cart">Giỏ hàng</a></nav>
+<nav><a class="nav-link" href="${pageContext.request.contextPath}/products">Sản phẩm</a><a class="nav-link active" href="${pageContext.request.contextPath}/cart">Giỏ hàng</a><a class="nav-link" href="${pageContext.request.contextPath}/orders">Lịch sử đơn hàng</a></nav>
 </div></header>
 <main class="container main-content">
 <div class="page-heading"><p class="eyebrow">ĐƠN HÀNG CỦA BẠN</p><h1>Giỏ hàng</h1></div>
